@@ -6,7 +6,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	color: green;
-	border: 1;
+	border: 1px;
 	}
 	input {
 		box-shadow:0 0 15px 1px rgba(0,0,0,.25);
@@ -29,7 +29,7 @@
 		margin-left: auto;
 		margin-right: auto;
 		color: green;
-		border: 1;
+		border: 1px;
 	}
 	input {
 		box-shadow:0 0 15px 1px rgba(0,0,0,.25);
@@ -44,5 +44,5 @@
 	}
 }
 fieldset{
-  border: 2px groove (internal value);
+  border: 2px groove;
 }
