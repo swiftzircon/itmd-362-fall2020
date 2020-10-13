@@ -1,3 +1,8 @@
+/* Lab Additions to CSS */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -21,10 +26,12 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
+}
+body { /*Added Font*/
+	font-family: 'Josefin Sans', sans-serif, "Segoe UI", Roboto, Helvetica;
 }
 
 /**
