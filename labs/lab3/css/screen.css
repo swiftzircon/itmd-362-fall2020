@@ -213,6 +213,7 @@ body { /*Applied Body styles for Lab */
   background-color: #f3d3f5;
   margin-right: auto;
   margin-left: auto;
+  text-shadow: 1.5px 1.5px #bf8eb7;
 }
 
 h1,p,li {
@@ -228,7 +229,7 @@ input {
 }
 
 #submit {
-  padding: 5px 10px;
+  padding: 5px 15px;
   border-radius: 10px;
 }
 /* ===== STATE STYLES ======= */
@@ -237,7 +238,7 @@ input {
     margin: auto;
 	width: 50%;
 	text-align: center;
-	text-shadow: 1.5px 1.5px #bf8eb7;
+
   }
   h1,p,li {
 	line-height: 1.5em; 
@@ -252,15 +253,15 @@ input {
 @media only screen and (max-width: 1050px) { /*Mobile Devices*/
   h1,p,label,#submit {
 	line-height: 1.2em;
-	font-size: 5em; 
+	font-size: 1.5em; 
 	margin-bottom: 1em;
-	text-shadow: 5px 5px #bf8eb7;
+
   }
   input[type=checkbox] {
 	width: 1em;
 	height: 1em;
   }
   #email {
-    font-size:3.5em;
+    font-size:1em;
   }
 }
